@@ -10,7 +10,11 @@ I made this interior designer Home page using pure HTML and CSS.
 
 ## Demo
 
-![interior design](./Project-10.png)
+1. desktop screen
+   ![interior design](./output%20ss/desktop.png)
+   
+2. mobile screen
+   ![mobile view](./output%20ss/mobile.png)
 
 ## Run Locally
 

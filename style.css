@@ -120,12 +120,12 @@ nav .list {
   margin-bottom: 5%;
 }
 
-.card1 {
+.box1 {
   top: 35%;
   right: 7%;
 }
 
-.card2 {
+.box2 {
   top: 82%;
   right: 30%;
 }
@@ -177,4 +177,61 @@ nav .list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+@media screen and (max-width: 61em) {
+  html {
+    font-size: 50%;
+  }
+
+  .content {
+    max-width: 400px;
+  }
+}
+
+@media screen and
+/* (min-width:320)and */
+(max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+
+  nav {
+    padding-top: 3rem;
+  }
+
+  nav .list {
+    border-bottom: none;
+  }
+
+  .list ul {
+    display: none;
+  }
+
+  .content {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+  }
+
+  .content button {
+    margin-top: 7rem;
+    width: 60%;
+  }
+
+  .box1 {
+    top: 60%;
+  }
+
+  .box2 {
+    top: 89%;
+    left: 5%;
+  }
+
+  .lines {
+    top: 79%
+  }
 }
