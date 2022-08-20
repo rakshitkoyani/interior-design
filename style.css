@@ -192,9 +192,13 @@ nav .list {
 @media screen and
 
 /* (min-width:320)and */
-(max-width: 600px) {
+(max-width: 38em) {
   html {
     font-size: 50%;
+  }
+
+  .contact .img {
+    display: none;
   }
 
   nav {
